@@ -1,0 +1,22 @@
+Package: Jiepac
+Title: Converting Data from Wide to Long Format
+Version: 0.0.0.9000
+Authors@R: 
+    person("Shanjie", "Jiao", , "shanjiejiao@outlook.com", role = c("aut", "cre"))
+Description: preprocess World Bank mortality data by converting it from wide format to long format.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.1
+Imports: 
+    countrycode,
+    dplyr,
+    tidyr,
+    tidyselect
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
