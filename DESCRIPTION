@@ -20,3 +20,5 @@ LazyData: true
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+URL: https://github.com/Jie-jiao05/Jiepac
+BugReports: https://github.com/Jie-jiao05/Jiepac/issues
