@@ -18,7 +18,10 @@ Depends:
     R (>= 3.5)
 LazyData: true
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 URL: https://github.com/Jie-jiao05/Jiepac
 BugReports: https://github.com/Jie-jiao05/Jiepac/issues
+VignetteBuilder: knitr
