@@ -1,5 +1,4 @@
-# Run these setup commands manually in the console, not during package installation.
-# R sources every file in R/ when installing the package.
+# Just for Perosnal Install Test
 # install.packages("devtools")
 # library(devtools)
 
