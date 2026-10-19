@@ -1,5 +1,5 @@
 ---
-title: "This Package Used for Convert Short to Long Data Formatt"
+title: "This Package Used for Convert Data from Wide to Long Data Format"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{intro}
@@ -17,3 +17,36 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(Jiepac)
 ```
+
+
+## Example data
+
+The package includes maternal mortality data from
+the World Bank.
+
+```{r}
+data("mater", package = "Jiepac")
+
+head(mater)
+```
+
+## Preprocess the data
+
+The `wbfun()` function converts mortality data from
+wide format to long format.
+
+```{r}
+matmor <- wbfun(mater, "matmor")
+
+head(matmor)
+```
+
+## Output
+
+The processed dataset contains three variables:
+
+- `iso`: Country ISO code
+- `year`: Year from 2000 to 2019
+- `matmor`: Maternal mortality values
+
+Each row represents one country in one year.
